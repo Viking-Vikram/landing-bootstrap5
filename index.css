@@ -1,0 +1,57 @@
+html,
+body {
+	height: 100%;
+	font-size: 1rem;
+	font-family: "Montserrat", sans-serif;
+	color: #ffff;
+}
+.gradient {
+	background: rgb(0, 97, 242);
+	background: linear-gradient(
+		90deg,
+		rgba(0, 97, 242, 1) 0%,
+		rgba(105, 0, 199, 1) 35%
+	);
+}
+.page-header {
+	font-size: 1.25rem;
+}
+.features ul {
+	padding-left: 2rem;
+	list-style-type: none;
+}
+.features ul li {
+	background-image: url("./img/check.svg");
+	background-repeat: no-repeat;
+	padding-left: 2rem;
+	margin-bottom: 1rem;
+}
+.icons {
+	color: #000;
+}
+.icon {
+	color: #ffff;
+	height: 3rem;
+	width: 3rem;
+	margin: 0 auto;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	font-size: 2rem;
+}
+.gallery {
+	background-color: #ccc;
+}
+.heading {
+	color: black;
+}
+.gallery img {
+	border-radius: 5%;
+}
+.contact {
+	background-color: white;
+}
+footer p {
+	font-size: 1rem;
+	padding: 1rem;
+}
